@@ -9,7 +9,7 @@ const ServicesSection = () => {
   return (
     <div className="services">
       <div className="description">
-        <h2>high <span>quality</span> services</h2>
+        <h2>High <span>quality</span> services</h2>
         <div className="cards">
           <div className="card">
             <div className="icon">
