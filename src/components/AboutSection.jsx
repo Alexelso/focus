@@ -17,7 +17,7 @@ const AboutSection = () => {
           <h2>true</h2>
         </Hide>
         <p>
-          Contact us for any photography or videography ideas that you have we have a professionals with amazing skills
+          Contact us for any photography or videography ideas that you have we have a bunch of professionals with amazing skills
         </p>
         <button>Contact us</button>
       </Description>
