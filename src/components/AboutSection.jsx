@@ -4,6 +4,7 @@ import {About, Description, Image, Hide} from '../styles';
 import {motion} from 'framer-motion';
 import {titleAnim, fade, photoAnim} from '../animation';
 import Wave from './Wave';
+import styled from 'styled-components';
 
 const AboutSection = () => {
   return (
@@ -23,7 +24,8 @@ const AboutSection = () => {
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact us for any photography or videography ideas that you have we have a bunch of professionals with amazing skills
+          We have a bunch of professionals with amazing skills ready to materialize any photography or videograpy ideas you might have
+          {' '}
         </motion.p>
         <motion.button variants={fade}>
           Contact us
@@ -36,5 +38,9 @@ const AboutSection = () => {
     </About>
   );
 };
+
+const Styledh2 = styled (motion.h2)`
+
+`;
 
 export default AboutSection;

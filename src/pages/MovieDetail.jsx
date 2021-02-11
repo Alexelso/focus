@@ -78,6 +78,10 @@ justify-content: space-around;
 align-items: center;
 min-height: 80vh;
 margin: 5rem 10rem;
+@media(max-width: 1500px){
+  display: block;
+  margin: 2rem 2rem;
+}
 `;
 
 const ImageDisplay = styled.div`

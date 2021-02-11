@@ -9,10 +9,10 @@ import theracer2 from './img/the-racer2.jpg';
 export const MovieState = () => {
   return [
     {
-      title: 'The Athlete',
+      title: 'The boxer',
       mainImg: athlete,
       secondaryImg: athlete2,
-      url: '/work/the-athlete',
+      url: '/work/the-boxer',
       awards: [
         {
           title: 'Truly A masterpiece',
@@ -32,9 +32,9 @@ export const MovieState = () => {
       ],
     },
     {
-      title: 'Good Times',
+      title: 'The lover',
       mainImg: goodtimes,
-      url: '/work/good-times',
+      url: '/work/the-lover',
       secondaryImg: goodtimes2,
       awards: [
         {

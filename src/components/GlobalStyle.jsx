@@ -7,6 +7,17 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
+html{
+    background: #1b1b1b;
+    @media(max-width: 1700px){
+        font-size: 75%;
+    }
+}
+
+.App{
+    background: #1b1b1b;
+}
+
 body{
     background: #1b1b1b;
     font-family: 'Inter', sans-serif
@@ -25,6 +36,7 @@ button{
         background-color: #23d997;
         color: white;
     }
+    z-index: 200;
 }
 h2{
     font-weight: lighter;

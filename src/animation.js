@@ -67,6 +67,19 @@ export const fade = {
   },
 };
 
+export const fadeSections = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 0.75,
+      ease: 'easeIn',
+    },
+  },
+};
+
 export const photoAnim = {
   hidden: {
     scale: 1.5,
@@ -112,7 +125,7 @@ export const lineAnim = {
 
 export const slider = {
   hidden: {
-    x: '-130%',
+    x: '-160%',
     skew: '45deg',
   },
   show: {
